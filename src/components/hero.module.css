@@ -1,0 +1,17 @@
+.hero {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.basicInfo {
+  display: flex;
+  gap: 10px 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,12 @@
+.skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.list {
+  margin-left: 1rem;
+}

@@ -1,0 +1,29 @@
+.layout {
+  max-width: 660px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.summary {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media print {
+  /* Force light mode */
+  :root {
+    color-scheme: light !important;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

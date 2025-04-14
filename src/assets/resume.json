@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "theme": "remarkable"
+  },
+  "basics": {
+    "name": "John Walley",
+    "label": "Software Developer",
+    "email": "john.walley@mulberryhousesoftware.com",
+    "summary": "A full-stack developer with a strong product focus, experienced in building applications from the ground up. Comfortable wearing multiple hats and driving projects from concept to launch. Open to exploring new opportunities where I can contribute technical expertise, product vision, and a startup mindset.",
+    "url": "https://www.walley.org.uk",
+    "location": {
+      "city": "Cambridge",
+      "countryCode": "GB"
+    },
+    "profiles": [
+      {
+        "username": "johnwalley",
+        "url": "https://www.linkedin.com/in/johnwalley/",
+        "network": "linkedin"
+      },
+      {
+        "username": "johnmwalley",
+        "url": "https://twitter.com/johnwalley",
+        "network": "twitter"
+      },
+      {
+        "url": "https://github.com/johnwalley",
+        "username": "johnwalley",
+        "network": "github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Mulberry House Software",
+      "position": "CEO & Founder",
+      "url": "https://www.mulberryhousesoftware.com",
+      "startDate": "2016-05",
+      "summary": "Founded and led a software company delivering innovative solutions across multiple industries.",
+      "highlights": [
+        "Developed a floor planner in collaboration with [Reno](https://www.renovatewithreno.co.uk/), a leading UK home renovation startup.",
+        "Designed visualization tools for the pension industry in partnership with [Financial Canvas](https://www.financialcanvas.co.uk/).",
+        "Created open-source data visualization libraries ([Pennant](https://pennant.vega.xyz/) & [Allotment](https://allotment.mulberryhousesoftware.com/)) for Vega, a decentralized derivatives trading network."
+      ]
+    },
+    {
+      "name": "Redgate",
+      "position": "Trainee Product Manager",
+      "url": "https://www.red-gate.com/",
+      "endDate": "2016-05",
+      "startDate": "2015-07",
+      "summary": "Enhanced product visibility and usage for a newly acquired database deployment tool.",
+      "highlights": [
+        "Increased awareness and adoption through targeted marketing and outreach strategies.",
+        "Implemented in-product analytics to provide actionable insights.",
+        "Collaborated with UX specialists to prioritise features and improve user experience."
+      ]
+    },
+    {
+      "name": "Redgate",
+      "position": "Software Developer",
+      "url": "https://www.red-gate.com/",
+      "endDate": "2015-07",
+      "startDate": "2014-06",
+      "summary": "Developed solutions to streamline SQL Server database deployment for users of popular release management tools."
+    },
+    {
+      "name": "Sungard",
+      "position": "Software Developer",
+      "url": "https://www.fisglobal.com/",
+      "endDate": "2014-05",
+      "startDate": "2012-03",
+      "highlights": [
+        "Contributed to a scalable framework powering a high-performance risk analytics service.",
+        "Developed a tracing just-in-time compiler, enabling C# financial models to run efficiently on GPUs."
+      ]
+    },
+    {
+      "name": "Various",
+      "position": "Software Developer (Freelance)",
+      "endDate": "2012-03",
+      "startDate": "2011-08",
+      "highlights": [
+        "Designed algorithms for human motion capture using low-cost inertial sensors.",
+        "Developed a bespoke financial trading tool tailored to an independent trader's needs."
+      ]
+    },
+    {
+      "name": "Fidelity",
+      "position": "High Performance Computing Developer",
+      "endDate": "2011-08",
+      "startDate": "2010-11",
+      "highlights": [
+        "Designed and implemented quantitative methods as part of the applied HPC team.",
+        "Advocated agile development practices, including iterative approaches and stakeholder feedback."
+      ]
+    },
+    {
+      "name": "MathWorks",
+      "position": "Application Engineer",
+      "endDate": "2010-11",
+      "startDate": "2007-05",
+      "highlights": [
+        "Worked directly with customers to understand their technical and business challenges.",
+        "Served as the main UK technical contact for MathWorks parallel computing tools.",
+        "Prepared and delivered presentations to customers and prospects.",
+        "Provided feedback to the commercial and R&D organisations."
+      ]
+    },
+    {
+      "name": "QinetiQ",
+      "position": "Research Scientist",
+      "url": "https://www.qinetiq.com/",
+      "endDate": "2007-05",
+      "startDate": "2004-10",
+      "highlights": [
+        "Assessed and improved warship stealth technology.",
+        "Developed multi-sensor fusion techniques to enhance situational awareness.",
+        "Created object tracking algorithms using C++, MATLAB, and Python."
+      ]
+    },
+    {
+      "name": "Newcastle University",
+      "position": "Research Assistant",
+      "date": "Summer 1998 & 1999",
+      "highlights": [
+        "Conducted data analysis and modelling for a mass spectrometry experiment in Fortran.",
+        "Co-authored a peer-reviewed paper: 'Hyperfine-resolved spectrum of the molecular dication DCl²⁺'."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "endDate": "2003-08",
+      "startDate": "2002-09",
+      "area": "Mathematical Modelling and Scientific Computing",
+      "studyType": "MSc",
+      "institution": "University of Oxford",
+      "highlights": [
+        "Studied mathematical modelling, numerical linear algebra, numerical optimisation and distributed computing for computational finance.",
+        "Explored the numerical solution of magnetic fluid flow in my dissertation."
+      ]
+    },
+    {
+      "date": "2003-06",
+      "startDate": "1999-10",
+      "area": "Mathematics",
+      "studyType": "BA",
+      "institution": "University of Cambridge",
+      "highlights": [
+        "Studied a wide variety of topics with an emphasis on applied mathematics, statistics and theoretical physics."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "keywords": ["Typescript", "JavaScript", "C#", "MATLAB"],
+      "name": "Software development"
+    },
+    {
+      "keywords": ["Public speaking", "technical presentations"],
+      "name": "Communication"
+    },
+    {
+      "keywords": ["Data visualisation", "API design", "data analysis"],
+      "name": "Specialised expertise"
+    },
+    {
+      "keywords": ["Technical mentoring", "product management"],
+      "name": "Management experience"
+    }
+  ]
+}
