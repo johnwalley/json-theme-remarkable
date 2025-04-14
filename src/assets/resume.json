@@ -6,11 +6,11 @@
     "name": "John Walley",
     "label": "Software Developer",
     "email": "john.walley@mulberryhousesoftware.com",
-    "summary": "A full-stack developer with a strong product focus, experienced in building applications from the ground up. Comfortable wearing multiple hats and driving projects from concept to launch. Open to exploring new opportunities where I can contribute technical expertise, product vision, and a startup mindset.",
+    "summary": "Full-stack developer and entrepreneur with over 15 years of experience delivering robust applications and innovative software solutions. Expert in TypeScript, JavaScript, and data visualisation, with a proven track record of leading cross-industry projects from conception to deployment.",
     "url": "https://www.walley.org.uk",
     "location": {
       "city": "Cambridge",
-      "countryCode": "GB"
+      "countryCode": "UK"
     },
     "profiles": [
       {
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "date": "2003-06",
+      "endDate": "2002-06",
       "startDate": "1999-10",
       "area": "Mathematics",
       "studyType": "BA",
@@ -155,19 +155,23 @@
   "skills": [
     {
       "keywords": ["Typescript", "JavaScript", "C#", "MATLAB"],
-      "name": "Software development"
+      "name": "Languages"
     },
     {
-      "keywords": ["Public speaking", "technical presentations"],
-      "name": "Communication"
+      "keywords": ["React", "Node.js", "D3.js"],
+      "name": "Frameworks & tools"
     },
     {
       "keywords": ["Data visualisation", "API design", "data analysis"],
       "name": "Specialised expertise"
     },
     {
-      "keywords": ["Technical mentoring", "product management"],
-      "name": "Management experience"
+      "keywords": [
+        "Technical mentoring",
+        "product management",
+        "public speaking"
+      ],
+      "name": "Soft skills"
     }
   ]
 }
