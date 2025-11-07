@@ -32,15 +32,24 @@
   },
   "work": [
     {
+      "name": "Cambridge Intelligence",
+      "position": "Software Developer",
+      "url": "https://cambridge-intelligence.com/",
+      "startDate": "2025-06",
+      "summary": "Developing innovative data visualisation solutions.",
+      "highlights": []
+    },
+    {
       "name": "Mulberry House Software",
       "position": "CEO & Founder",
       "url": "https://www.mulberryhousesoftware.com",
       "startDate": "2016-05",
-      "summary": "Founded and led a software company delivering innovative solutions across multiple industries.",
+      "endDate": "2025-06",
+      "summary": "Founded and grew a software consultancy delivering innovative solutions across multiple industries.",
       "highlights": [
         "Developed a floor planner in collaboration with [Reno](https://www.renovatewithreno.co.uk/), a leading UK home renovation startup.",
         "Designed visualization tools for the pension industry in partnership with [Financial Canvas](https://www.financialcanvas.co.uk/).",
-        "Created open-source data visualization libraries ([Pennant](https://pennant.vega.xyz/) & [Allotment](https://allotment.mulberryhousesoftware.com/)) for Vega, a decentralized derivatives trading network."
+        "Created open-source data visualization libraries with over 80,000 weekly downloads ([Allotment](https://allotment.mulberryhousesoftware.com/) & [Pennant](https://pennant.vega.xyz/)) for [Vega](https://vega.xyz/), a decentralized derivatives trading network."
       ]
     },
     {
@@ -125,7 +134,7 @@
       "date": "Summer 1998 & 1999",
       "highlights": [
         "Conducted data analysis and modelling for a mass spectrometry experiment in Fortran.",
-        "Co-authored a peer-reviewed paper: 'Hyperfine-resolved spectrum of the molecular dication DCl²⁺'."
+        "Co-authored a peer-reviewed paper: ['Hyperfine-resolved spectrum of the molecular dication DCl²⁺'](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.61.050501)."
       ]
     }
   ],
@@ -154,15 +163,31 @@
   ],
   "skills": [
     {
-      "keywords": ["Typescript", "JavaScript", "C#", "MATLAB"],
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "C#",
+        "MATLAB"
+      ],
       "name": "Languages"
     },
     {
-      "keywords": ["React", "Node.js", "D3.js"],
+      "keywords": [
+        "React",
+        "Node.js",
+        "D3",
+        "Git",
+        "Next.js"
+      ],
       "name": "Frameworks & tools"
     },
     {
-      "keywords": ["Data visualisation", "API design", "data analysis"],
+      "keywords": [
+        "Data visualisation",
+        "API design",
+        "data analysis"
+      ],
       "name": "Specialised expertise"
     },
     {
