@@ -8,7 +8,7 @@ export function Skills({ skills }: { skills: ResumeType["skills"] }) {
       {skills.map((skill, index) => (
         <div key={index} className={styles.skill}>
           <div className={styles.name}>{skill.name}:</div>
-          <div className={styles.list}>{skill.keywords.join(", ")}</div>
+          <div>{skill.keywords.join(", ")}</div>
         </div>
       ))}
     </Section>

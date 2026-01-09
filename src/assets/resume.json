@@ -36,7 +36,7 @@
       "position": "Software Developer",
       "url": "https://cambridge-intelligence.com/",
       "startDate": "2025-06",
-      "summary": "Developing innovative data visualisation solutions.",
+      "summary": "Senior engineer working on high-performance data visualisation tools used by analysts to explore complex graph, temporal and geosptial data. Contributing across product architecture, developer experience, and performance critical UI components.",
       "highlights": []
     },
     {
@@ -175,12 +175,26 @@
     {
       "keywords": [
         "React",
-        "Node.js",
+        "HTML Canvas",
+        "Web Workers",
         "D3",
-        "Git",
-        "Next.js"
+        "high-performance rendering",
+        "large-scale data visualisation"
       ],
-      "name": "Frameworks & tools"
+      "name": "Frontend & visualisation"
+    },
+    {
+      "keywords": [
+        "Node.js",
+        "Next.js",
+        "Astro",
+        "Vite",
+        "Webpack",
+        "pnpm",
+        "git",
+        "monorepos"
+      ],
+      "name": "Platform & tooling"
     },
     {
       "keywords": [
@@ -192,8 +206,14 @@
     },
     {
       "keywords": [
-        "Technical mentoring",
-        "product management",
+        "Technical leadership",
+        "decision-making",
+        "mentoring",
+        "cross-functional work",
+        "product focus",
+        "architecture reviews",
+        "engineering standards",
+        "technical communication",
         "public speaking"
       ],
       "name": "Soft skills"
