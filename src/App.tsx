@@ -4,6 +4,24 @@ import { Resume } from "./components/resume";
 import resumeJson from "./assets/resume.json";
 import { z } from "zod";
 
+const PartialDateSchema = z
+  .string()
+  .refine(v => /^\d{4}(-\d{2})?$/.test(v))
+  .transform(v => {
+    if (v.length === 4) {
+      return { kind: 'year', year: Number(v) } as const;
+    }
+
+    const [y, m] = v.split('-').map(Number);
+    if (m < 1 || m > 12) {
+      throw new Error('Invalid month');
+    }
+
+    return { kind: 'year-month', year: y, month: m } as const;
+  });
+
+export type PartialDate = z.infer<typeof PartialDateSchema>;
+
 const ResumeSchema = z.object({
   basics: z.object({
     name: z.string(),
@@ -30,17 +48,13 @@ const ResumeSchema = z.object({
     z
       .object({
         name: z.string(),
-        position: z.string(),
+        position: z.string().optional(),
         website: z.string().url().optional(),
         summary: z.string().optional(),
         highlights: z.array(z.string()).optional(),
+        startDate: PartialDateSchema,
+        endDate: PartialDateSchema.optional()
       })
-      .and(
-        z.union([
-          z.object({ startDate: z.string(), endDate: z.string().optional() }),
-          z.object({ date: z.string() }),
-        ])
-      )
   ),
   skills: z.array(
     z.object({
@@ -54,8 +68,8 @@ const ResumeSchema = z.object({
       institution: z.string(),
       area: z.string(),
       studyType: z.string(),
-      startDate: z.string(),
-      endDate: z.string().optional(),
+      startDate: PartialDateSchema,
+      endDate: PartialDateSchema.optional(),
       score: z.string().optional(),
       summary: z.string().optional(),
       highlights: z.array(z.string()).optional(),

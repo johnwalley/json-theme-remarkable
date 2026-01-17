@@ -1,13 +1,13 @@
 import { DateComponent } from "./date";
 import ReactMarkdown from "react-markdown";
 import styles from "./experience.module.css";
+import { PartialDate } from "../App";
 
 type ExperienceProps = {
   title: string;
-  startDate?: string;
-  endDate?: string;
+  startDate?: PartialDate;
+  endDate?: PartialDate;
   subTitle?: string;
-  date?: string;
   summary?: string;
   highlights?: string[];
 };
@@ -16,7 +16,6 @@ export function Experience({
   title,
   startDate,
   endDate,
-  date,
   subTitle,
   summary,
   highlights,
@@ -26,14 +25,9 @@ export function Experience({
       <div className={styles.meta}>
         <div className={styles.title}>{title}</div>
         <div className={styles.dateRange}>
-          {date ? (
-            <div>{date}</div>
-          ) : (
-            <>
-              <DateComponent date={startDate} /> -{" "}
-              <DateComponent date={endDate} />
-            </>
-          )}
+          <DateComponent date={startDate} />
+          <span aria-hidden="true"> &ndash; </span>
+          <DateComponent date={endDate} />
         </div>
       </div>
       {subTitle && <div className={styles.subTitle}>{subTitle}</div>}

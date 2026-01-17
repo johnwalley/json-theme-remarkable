@@ -12,19 +12,6 @@ export function Resume({ resume }: { resume: ResumeType }) {
       <div className={styles.summary}>{resume.basics.summary}</div>
       <Section title="Experience">
         {resume.work.map((job, index) => {
-          if ("date" in job) {
-            return (
-              <Experience
-                key={index}
-                title={job.name}
-                date={job.date}
-                subTitle={job.position}
-                summary={job.summary}
-                highlights={job.highlights}
-              />
-            );
-          }
-
           return (
             <Experience
               key={index}
@@ -38,6 +25,7 @@ export function Resume({ resume }: { resume: ResumeType }) {
           );
         })}
       </Section>
+      <Skills skills={resume.skills} />
       <Section title="Education">
         {resume.education.map((degree, index) => {
           let subTitle = degree.area
@@ -61,7 +49,6 @@ export function Resume({ resume }: { resume: ResumeType }) {
           );
         })}
       </Section>
-      <Skills skills={resume.skills} />
     </div>
   );
 }

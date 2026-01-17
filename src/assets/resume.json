@@ -6,7 +6,7 @@
     "name": "John Walley",
     "label": "Software Developer",
     "email": "john@walley.org.uk",
-    "summary": "Full-stack developer and founder with 15+ years of experience designing and delivering scalable applications, data visualization platforms, and open-source tools. Proven track record leading technical teams, driving product strategy, and contributing to projects used by tens of thousands of developers worldwide.",
+    "summary": "Senior software engineer with deep experience building data-intensive and performance-critical web applications, specialising in data visualisation and complex UI systems. Strong background in TypeScript, React, and modern frontend architecture, with a track record of designing maintainable systems, improving developer experience, and tackling hard technical problems. Comfortable operating as a senior individual contributor, influencing technical direction, mentoring engineers, and collaborating closely with product and design to deliver high-quality outcomes.",
     "url": "https://www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -17,11 +17,6 @@
         "username": "johnwalley",
         "url": "https://www.linkedin.com/in/johnwalley/",
         "network": "linkedin"
-      },
-      {
-        "username": "johnmwalley",
-        "url": "https://twitter.com/johnwalley",
-        "network": "twitter"
       },
       {
         "url": "https://github.com/johnwalley",
@@ -36,20 +31,21 @@
       "position": "Software Developer",
       "url": "https://cambridge-intelligence.com/",
       "startDate": "2025-06",
-      "summary": "Senior engineer working on high-performance data visualisation tools used by analysts to explore complex graph, temporal and geosptial data. Contributing across product architecture, developer experience, and performance critical UI components.",
+      "summary": "Senior engineer working on high-performance data visualisation tools used by analysts to explore complex graph, temporal and geospatial data. Contributing across product architecture, developer experience, and performance-critical UI components.",
       "highlights": []
     },
     {
       "name": "Mulberry House Software",
-      "position": "CEO & Founder",
+      "position": "Founder & Principal Engineer",
       "url": "https://www.mulberryhousesoftware.com",
       "startDate": "2016-05",
       "endDate": "2025-06",
-      "summary": "Founded and grew a software consultancy delivering innovative solutions across multiple industries.",
       "highlights": [
-        "Developed a floor planner in collaboration with [Reno](https://www.renovatewithreno.co.uk/), a leading UK home renovation startup.",
-        "Designed visualization tools for the pension industry in partnership with [Financial Canvas](https://www.financialcanvas.co.uk/).",
-        "Created open-source data visualization libraries with over 80,000 weekly downloads ([Allotment](https://allotment.mulberryhousesoftware.com/) & [Pennant](https://pennant.vega.xyz/)) for [Vega](https://vega.xyz/), a decentralized derivatives trading network."
+        "Designed and delivered data-driven web applications and visualisation tools across multiple industries.",
+        "Built a production floor-planning application in collaboration with [Reno](https://www.renovatewithreno.co.uk/), a UK home-renovation startup.",
+        "Designed visualisation tools for the pensions industry in partnership with [Financial Canvas](https://www.financialcanvas.co.uk/).",
+        "Created and maintained open-source data-visualisation libraries ([Allotment](https://allotment.mulberryhousesoftware.com/) and [Pennant](https://pennant.vega.xyz/)) with 80,000+ weekly downloads, used by the [Vega](https://vega.xyz/) decentralised derivatives trading network.",
+        "Founded and grew a consultancy, leading technical delivery while remaining hands-on with architecture and implementation."
       ]
     },
     {
@@ -58,11 +54,10 @@
       "url": "https://www.red-gate.com/",
       "endDate": "2016-05",
       "startDate": "2015-07",
-      "summary": "Enhanced product visibility and usage for a newly acquired database deployment tool.",
       "highlights": [
-        "Increased awareness and adoption through targeted marketing and outreach strategies.",
-        "Implemented in-product analytics to provide actionable insights.",
-        "Collaborated with UX specialists to prioritise features and improve user experience."
+        "Improved visibility and adoption of a newly acquired database deployment tool.",
+        "Introduced in-product analytics to support data-driven product decisions.",
+        "Worked closely with UX and engineering to prioritise features and improve user experience."
       ]
     },
     {
@@ -81,84 +76,35 @@
       "startDate": "2012-03",
       "highlights": [
         "Contributed to a scalable framework powering a high-performance risk analytics service.",
-        "Developed a tracing just-in-time compiler, enabling C# financial models to run efficiently on GPUs."
+        "Developed a tracing just-in-time compiler enabling C# financial models to run efficiently on GPUs."
       ]
     },
     {
-      "name": "Various",
-      "position": "Software Developer (Freelance)",
-      "endDate": "2012-03",
-      "startDate": "2011-08",
+      "name": "Earlier Career",
+      "endDate": "2012",
+      "startDate": "2004",
+      "summary": "Held technical roles spanning high-performance computing, applied research, and customer-facing engineering, including:",
       "highlights": [
-        "Designed algorithms for human motion capture using low-cost inertial sensors.",
-        "Developed a bespoke financial trading tool tailored to an independent trader's needs."
-      ]
-    },
-    {
-      "name": "Fidelity",
-      "position": "High Performance Computing Developer",
-      "endDate": "2011-08",
-      "startDate": "2010-11",
-      "highlights": [
-        "Designed and implemented quantitative methods as part of the applied HPC team.",
-        "Advocated agile development practices, including iterative approaches and stakeholder feedback."
-      ]
-    },
-    {
-      "name": "MathWorks",
-      "position": "Application Engineer",
-      "endDate": "2010-11",
-      "startDate": "2007-05",
-      "highlights": [
-        "Worked directly with customers to understand their technical and business challenges.",
-        "Served as the main UK technical contact for MathWorks parallel computing tools.",
-        "Prepared and delivered presentations to customers and prospects.",
-        "Provided feedback to the commercial and R&D organisations."
-      ]
-    },
-    {
-      "name": "QinetiQ",
-      "position": "Research Scientist",
-      "url": "https://www.qinetiq.com/",
-      "endDate": "2007-05",
-      "startDate": "2004-10",
-      "highlights": [
-        "Assessed and improved warship stealth technology.",
-        "Developed multi-sensor fusion techniques to enhance situational awareness.",
-        "Created object tracking algorithms using C++, MATLAB, and Python."
-      ]
-    },
-    {
-      "name": "Newcastle University",
-      "position": "Research Assistant",
-      "date": "Summer 1998 & 1999",
-      "highlights": [
-        "Conducted data analysis and modelling for a mass spectrometry experiment in Fortran.",
-        "Co-authored a peer-reviewed paper: ['Hyperfine-resolved spectrum of the molecular dication DCl²⁺'](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.61.050501)."
+        "High Performance Computing Developer at [Fidelity](https://www.fidelity.co.uk/)",
+        "Application Engineer at [MathWorks](https://www.mathworks.com/) (UK technical contact for parallel computing tools)",
+        "Research Scientist at [QinetiQ](https://www.qinetiq.com/), working on multi-sensor fusion, object tracking, and stealth technology"
       ]
     }
   ],
   "education": [
     {
-      "endDate": "2003-08",
-      "startDate": "2002-09",
+      "endDate": "2003",
+      "startDate": "2002",
       "area": "Mathematical Modelling and Scientific Computing",
       "studyType": "MSc",
-      "institution": "University of Oxford",
-      "highlights": [
-        "Studied mathematical modelling, numerical linear algebra, numerical optimisation and distributed computing for computational finance.",
-        "Explored the numerical solution of magnetic fluid flow in my dissertation."
-      ]
+      "institution": "University of Oxford"
     },
     {
-      "endDate": "2002-06",
-      "startDate": "1999-10",
+      "endDate": "2002",
+      "startDate": "1999",
       "area": "Mathematics",
       "studyType": "BA",
-      "institution": "University of Cambridge",
-      "highlights": [
-        "Studied a wide variety of topics with an emphasis on applied mathematics, statistics and theoretical physics."
-      ]
+      "institution": "University of Cambridge"
     }
   ],
   "skills": [

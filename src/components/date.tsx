@@ -1,12 +1,26 @@
-const options = { year: "numeric", month: "long" } as const;
+import { PartialDate } from "../App";
 
-export function DateComponent({ date }: { date?: string }) {
+const monthFormatter = new Intl.DateTimeFormat('en-US', {
+  month: 'long',
+});
+
+export function DateComponent({ date }: { date?: PartialDate }) {
   if (!date) {
-    return <div>Present</div>;
+    return <span>Present</span>;
   }
 
-  const fullDate = new Date(date);
-  const formattedDate = fullDate.toLocaleDateString("en-US", options);
+  if (date.kind === 'year') {
+    return <span>{date.year}</span>;
+  }
 
-  return <span>{formattedDate}</span>;
+  // year-month
+  const monthName = monthFormatter.format(
+    new Date(date.year, date.month - 1, 1)
+  );
+
+  return (
+    <span>
+      {monthName} {date.year}
+    </span>
+  );
 }

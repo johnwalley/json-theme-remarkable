@@ -1,29 +1,38 @@
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
 .layout {
-  max-width: 660px;
+  max-width: 170mm; /* 210mm - (20mm * 2) */
   margin: 0 auto;
-  margin-bottom: 40px;
+  padding-bottom: 10mm;
 }
 
 .summary {
-  margin-bottom: 1rem;
+  margin-bottom: 4mm;
 }
 
 a {
   color: inherit;
+  text-decoration: underline;
 }
 
 p {
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 @media print {
-  /* Force light mode */
   :root {
     color-scheme: light !important;
   }
 
   a {
     text-decoration: none;
+  }
+
+  /* Avoid ugly page breaks */
+  h1, h2, h3 {
+    break-after: avoid;
   }
 }
