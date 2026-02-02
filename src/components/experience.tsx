@@ -31,7 +31,7 @@ export function Experience({
         </div>
       </div>
       {subTitle && <div className={styles.subTitle}>{subTitle}</div>}
-      {summary && <span>{summary}</span>}
+      {summary && <div className={styles.summary}>{summary}</div>}
       {highlights && (
         <ul className={styles.highlights}>
           {highlights.map((highlight, index) => (

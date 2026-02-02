@@ -27,7 +27,7 @@ const ResumeSchema = z.object({
     name: z.string(),
     label: z.string(),
     email: z.string().email(),
-    url: z.string().url().optional(),
+    url: z.string().optional(),
     phone: z.string().optional(),
     summary: z.string(),
     location: z
