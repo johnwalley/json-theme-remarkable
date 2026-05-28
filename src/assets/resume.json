@@ -6,7 +6,7 @@
     "name": "John Walley",
     "label": "Software Developer",
     "email": "john@walley.org.uk",
-    "summary": "Senior software engineer with deep experience building data-intensive and performance-critical web applications, specialising in data visualisation and complex UI systems. Strong background in TypeScript, React, and modern frontend architecture, with a track record of designing maintainable systems, improving developer experience, and tackling hard technical problems. Comfortable operating as a senior individual contributor, influencing technical direction, mentoring engineers, and collaborating closely with product and design to deliver high-quality outcomes.",
+    "summary": "Senior software engineer with deep experience building data-intensive and performance-critical web applications, specialising in data visualisation and complex UI systems. Strong background in TypeScript, React, and modern frontend architecture, with a track record of designing maintainable systems, improving developer experience, and tackling hard technical problems. Comfortable operating as a senior individual contributor, influencing technical direction, mentoring engineers, and collaborating closely with product and design to deliver high-quality outcomes. Pragmatic adopter of AI-assisted development — fluent with modern agentic coding tools and focused on where they genuinely improve engineering quality and velocity.",
     "url": "www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -32,7 +32,9 @@
       "url": "https://cambridge-intelligence.com/",
       "startDate": "2025-06",
       "summary": "Senior engineer working on high-performance data visualisation tools used by analysts to explore complex graph, temporal and geospatial data. Contributing across product architecture, developer experience, and performance-critical UI components.",
-      "highlights": []
+      "highlights": [
+        "Active advocate for AI-assisted development across the engineering team — evaluating tools, sharing workflows, and helping colleagues integrate agentic coding into day-to-day practice."
+      ]
     },
     {
       "name": "Mulberry House Software",
@@ -109,13 +111,7 @@
   ],
   "skills": [
     {
-      "keywords": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "C#",
-        "MATLAB"
-      ],
+      "keywords": ["TypeScript", "JavaScript", "CSS", "C#", "MATLAB"],
       "name": "Languages"
     },
     {
@@ -144,10 +140,15 @@
     },
     {
       "keywords": [
-        "Data visualisation",
-        "API design",
-        "data analysis"
+        "Claude Code",
+        "GitHub Copilot",
+        "agentic coding workflows",
+        "team adoption"
       ],
+      "name": "AI-assisted development"
+    },
+    {
+      "keywords": ["Data visualisation", "API design", "data analysis"],
       "name": "Specialised expertise"
     },
     {
