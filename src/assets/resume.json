@@ -4,9 +4,9 @@
   },
   "basics": {
     "name": "John Walley",
-    "label": "Software Developer",
+    "label": "Senior Software Engineer",
     "email": "john@walley.org.uk",
-    "summary": "Senior software engineer with deep experience building data-intensive and performance-critical web applications, specialising in data visualisation and complex UI systems. Strong background in TypeScript, React, and modern frontend architecture, with a track record of designing maintainable systems, improving developer experience, and tackling hard technical problems. Comfortable operating as a senior individual contributor, influencing technical direction, mentoring engineers, and collaborating closely with product and design to deliver high-quality outcomes.",
+    "summary": "Senior software engineer with 15+ years of experience building high-performance, data-intensive applications and developer tools. Specialises in TypeScript, React, and large-scale data visualisation, with a focus on performance, system design, and developer experience. Experienced leading technical direction, designing scalable architectures, and delivering complex products end-to-end—from rendering-heavy frontends to APIs, build systems, and deployment pipelines. Strong track record of building high-leverage tools that simplify complex systems.",
     "url": "www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -28,11 +28,17 @@
   "work": [
     {
       "name": "Cambridge Intelligence",
-      "position": "Software Developer",
+      "position": "Senior Software Engineer",
       "url": "https://cambridge-intelligence.com/",
       "startDate": "2025-06",
-      "summary": "Senior engineer working on high-performance data visualisation tools used by analysts to explore complex graph, temporal and geospatial data. Contributing across product architecture, developer experience, and performance-critical UI components.",
-      "highlights": []
+      "summary": "Senior engineer working on high-performance data visualisation products for large-scale graph, temporal, and geospatial data.",
+      "highlights": [
+        "Contributed to frontend architecture and API design for performance-critical data visualisation systems handling large, complex datasets.",
+        "Influenced product and architectural direction across rendering, state management, and developer-facing APIs.",
+        "Improved developer experience through tooling, documentation, and system design, reducing friction in building and extending visualisation features.",
+        "Worked cross-functionally with product and design to deliver complex, high-performance UI features with strong usability constraints.",
+        "Built interfaces for exploring and manipulating large-scale, stateful data models, including graph and temporal systems."
+      ]
     },
     {
       "name": "Mulberry House Software",
@@ -40,12 +46,14 @@
       "url": "https://www.mulberryhousesoftware.com",
       "startDate": "2016-05",
       "endDate": "2025-06",
+      "summary": "Founded and led a consultancy delivering data-driven applications and developer tooling, working hands-on across architecture, implementation, and product direction.",
       "highlights": [
-        "Designed and delivered data-driven web applications and visualisation tools across multiple industries.",
-        "Built a production floor-planning application in collaboration with [Reno](https://www.renovatewithreno.co.uk/), a UK home-renovation startup.",
-        "Designed visualisation tools for the pensions industry in partnership with [Financial Canvas](https://www.financialcanvas.co.uk/).",
-        "Created and maintained open-source data-visualisation libraries ([Allotment](https://allotment.mulberryhousesoftware.com/) and [Pennant](https://pennant.vega.xyz/)) with 80,000+ weekly downloads, used by the [Vega](https://vega.xyz/) decentralised derivatives trading network.",
-        "Founded and grew a consultancy, leading technical delivery while remaining hands-on with architecture and implementation."
+        "Designed and delivered full-stack applications and developer-facing tools across multiple industries, owning projects end-to-end from concept to production.",
+        "Built and deployed scalable systems including frontend applications, APIs, and cloud-based infrastructure and deployment pipelines.",
+        "Developed a floor-planning application in collaboration with [Reno](https://www.renovatewithreno.co.uk/), a UK home-renovation startup.",
+        "Designed and delivered data visualisation tools for the pensions industry in partnership with [Financial Canvas](https://www.financialcanvas.co.uk/).",
+        "Created and maintained open-source data visualisation libraries ([Allotment](https://allotment.mulberryhousesoftware.com/) and [Pennant](https://pennant.vega.xyz/)) with 200,000+ weekly downloads, used in production by the [Vega](https://vega.xyz/) trading network.",
+        "Led technical delivery while growing a consultancy, balancing hands-on engineering with architecture, client collaboration, and product decisions."
       ]
     },
     {
@@ -55,9 +63,9 @@
       "endDate": "2016-05",
       "startDate": "2015-07",
       "highlights": [
-        "Improved visibility and adoption of a newly acquired database deployment tool.",
-        "Introduced in-product analytics to support data-driven product decisions.",
-        "Worked closely with UX and engineering to prioritise features and improve user experience."
+        "Improved adoption of a database deployment tool used in CI/CD pipelines through product and UX improvements.",
+        "Introduced in-product analytics to support data-driven product decisions and prioritisation.",
+        "Worked closely with UX and engineering to define and prioritise features."
       ]
     },
     {
@@ -66,7 +74,10 @@
       "url": "https://www.red-gate.com/",
       "endDate": "2015-07",
       "startDate": "2014-06",
-      "summary": "Developed solutions to streamline SQL Server database deployment for users of popular release management tools."
+      "summary": "Developed tooling to streamline SQL Server database deployment within release pipelines.",
+      "highlights": [
+        "Built features to improve reliability and usability of database deployment workflows in production environments."
+      ]
     },
     {
       "name": "Sungard",
@@ -75,19 +86,19 @@
       "endDate": "2014-05",
       "startDate": "2012-03",
       "highlights": [
-        "Contributed to a scalable framework powering a high-performance risk analytics service.",
-        "Developed a tracing just-in-time compiler enabling C# financial models to run efficiently on GPUs."
+        "Contributed to a scalable framework powering high-performance financial risk analytics.",
+        "Developed a tracing JIT compiler enabling C# financial models to execute efficiently on GPUs."
       ]
     },
     {
       "name": "Earlier Career",
       "endDate": "2012",
       "startDate": "2004",
-      "summary": "Held technical roles spanning high-performance computing, applied research, and customer-facing engineering, including:",
+      "summary": "Held roles across high-performance computing, applied research, and developer tooling:",
       "highlights": [
-        "High Performance Computing Developer at [Fidelity](https://www.fidelity.co.uk/)",
-        "Application Engineer at [MathWorks](https://www.mathworks.com/) (UK technical contact for parallel computing tools)",
-        "Research Scientist at [QinetiQ](https://www.qinetiq.com/), working on multi-sensor fusion, object tracking, and stealth technology"
+        "High Performance Computing Developer at Fidelity.",
+        "Application Engineer at MathWorks, acting as UK technical contact for parallel computing tools.",
+        "Research Scientist at QinetiQ, working on multi-sensor fusion, object tracking, and defence systems."
       ]
     }
   ],
@@ -109,60 +120,42 @@
   ],
   "skills": [
     {
-      "keywords": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "C#",
-        "MATLAB"
-      ],
-      "name": "Languages"
+      "name": "Languages",
+      "keywords": ["TypeScript", "JavaScript", "C#", "MATLAB"]
     },
     {
+      "name": "Frontend & Visualisation",
       "keywords": [
         "React",
         "HTML Canvas",
         "Web Workers",
         "D3",
-        "high-performance rendering",
-        "large-scale data visualisation"
-      ],
-      "name": "Frontend & visualisation"
+        "large-scale data visualisation",
+        "performance optimisation"
+      ]
     },
     {
+      "name": "Systems & Platform",
       "keywords": [
+        "API design",
+        "data modelling",
+        "CI/CD",
         "Node.js",
         "Next.js",
         "Astro",
         "Vite",
-        "Webpack",
-        "pnpm",
-        "git",
         "monorepos"
-      ],
-      "name": "Platform & tooling"
+      ]
     },
     {
-      "keywords": [
-        "Data visualisation",
-        "API design",
-        "data analysis"
-      ],
-      "name": "Specialised expertise"
-    },
-    {
+      "name": "Leadership & Product",
       "keywords": [
         "Technical leadership",
-        "decision-making",
+        "architecture",
         "mentoring",
-        "cross-functional work",
-        "product focus",
-        "architecture reviews",
-        "engineering standards",
-        "technical communication",
-        "public speaking"
-      ],
-      "name": "Soft skills"
+        "cross-functional collaboration",
+        "product thinking"
+      ]
     }
   ]
 }
