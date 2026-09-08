@@ -6,7 +6,7 @@
     "name": "John Walley",
     "label": "Senior Full-Stack Software Engineer",
     "email": "john@walley.org.uk",
-    "summary": "Senior software engineer with 20+ years building applications, libraries, and tools for other developers, across frontend, backend, and infrastructure. Expert in TypeScript, React, Node.js, API design, and browser internals. Much of that time has gone into designing the abstractions other engineers build on, and into owning systems from architecture through to production. Comfortable setting technical direction, and still writes most of the code.",
+    "summary": "Senior software engineer with 20+ years building applications, libraries, and tools for other developers, across frontend, backend, and infrastructure. Expert in TypeScript, React, Node.js, API design, and browser internals. Much of that time has gone into designing the abstractions other engineers build on, and into owning systems from architecture through to production. Comfortable setting technical direction, and still spends most days writing code.",
     "url": "www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -33,12 +33,11 @@
       "startDate": "2025-06",
       "summary": "Senior engineer across developer experience, web applications, tooling, and high-performance graph visualisation SDKs, with a focus on architecture, developer productivity, and technical direction.",
       "highlights": [
-        "Co-designed and delivered a unified developer platform for multiple SDK products, consolidating X documentation pages, Y demos, and Z API reference pages into a single codebase and removing duplicated tooling across products.",
+        "Co-designed and built a unified developer platform for multiple SDK products. It consolidates X documentation pages, Y demos, and Z API reference pages into a single codebase and replaced the per-product tooling.",
         "Designed public APIs and reusable abstractions that make the SDKs easier to integrate and extend.",
-        "Transferred ownership of the Cloudflare-hosted website infrastructure from the Platform team to the development team, removing a cross-team dependency from every release.",
-        "Expanded Playwright end-to-end coverage with QA to approximately 90% of website functionality.",
-        "Migrated the existing content to the new platform with AI-assisted tooling rather than by hand.",
-        "Used AI-assisted workflows to migrate X documentation pages, Y demos, and Z API reference pages to the new platform, completing the migration in a fraction of the time a manual rewrite would have taken."
+        "Took over the Cloudflare-hosted website infrastructure and its authentication from the Platform team, so the development team could make, test, and ship infrastructure changes without waiting on another team.",
+        "Worked with QA to expand Playwright end-to-end coverage to roughly 90% of website functionality.",
+        "Used AI-assisted workflows to migrate all existing content to the new platform."
       ]
     },
     {
@@ -50,7 +49,7 @@
       "summary": "Independent consultancy building data-driven applications and open-source developer tooling. Sole engineer on every engagement, responsible for architecture, implementation, infrastructure, and product direction.",
       "highlights": [
         "Author and maintainer of open-source React UI and data visualisation libraries, including [Allotment](https://allotment.mulberryhousesoftware.com/) and [Pennant](https://pennant.vega.xyz/), with 200,000+ weekly downloads and production use by the [Vega](https://vega.xyz/) trading network.",
-        "Delivered full-stack applications for clients in several industries, from requirements through to production and support: browser applications, Node.js APIs, cloud infrastructure, and deployment pipelines.",
+        "Owned client projects from requirements through to production and support, covering browser applications, Node.js APIs, cloud infrastructure, and deployment pipelines.",
         "Built interactive applications and data visualisation tools for clients including home-renovation startup [Reno](https://www.renovatewithreno.co.uk/) and pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/).",
         "Scoped and prioritised work directly with clients, usually with several engagements running at once."
       ]
@@ -123,7 +122,12 @@
     },
     {
       "name": "Developer Experience & Tooling",
-      "keywords": ["Developer tooling", "Vite", "monorepos", "build tooling"]
+      "keywords": [
+        "Vite",
+        "monorepos",
+        "release tooling",
+        "documentation platforms"
+      ]
     },
     {
       "name": "Platform & Delivery",
