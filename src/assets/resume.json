@@ -6,7 +6,7 @@
     "name": "John Walley",
     "label": "Senior Full-Stack Software Engineer",
     "email": "john@walley.org.uk",
-    "summary": "Senior software engineer with 20+ years of experience building developer-facing applications, libraries, and tools across frontend, backend, and infrastructure. Deep expertise in TypeScript, React, Node.js, API design, and browser engineering, with a track record of creating reusable abstractions that reduce complexity and improve developer productivity. Experienced leading technical direction and delivering complex systems end-to-end, from architecture and implementation through testing, deployment, and production. Combines hands-on engineering depth with product thinking and cross-functional technical leadership.",
+    "summary": "Senior software engineer with 20+ years of experience building applications, libraries, and tools for developers across frontend, backend, and infrastructure. Deep expertise in TypeScript, React, Node.js, API design, and browser engineering, with a track record of creating reusable abstractions that cut complexity and raise developer productivity. Sets technical direction and owns complex systems end-to-end, from architecture and implementation through testing, deployment, and production. Combines hands-on engineering depth with product thinking and cross-functional technical leadership.",
     "url": "www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -29,90 +29,80 @@
     {
       "name": "Cambridge Intelligence",
       "position": "Senior Software Engineer",
-      "url": "https://cambridge-intelligence.com/",
+      "website": "https://cambridge-intelligence.com/",
       "startDate": "2025-06",
-      "summary": "Senior engineer working across developer experience, web applications, tooling, and high-performance visualisation products, with a focus on architecture, developer productivity, and technical direction.",
+      "summary": "Senior engineer across developer experience, web applications, tooling, and high-performance graph visualisation SDKs, with a focus on architecture, developer productivity, and technical direction.",
       "highlights": [
-        "Helped design and deliver a unified developer platform for multiple SDK products, reducing duplication and simplifying how documentation, examples, and developer tooling are developed and maintained.",
-        "Designed developer-facing APIs and reusable abstractions that reduced complexity for developers integrating and extending data visualisation products.",
-        "Worked with the Platform team to transfer ownership of Cloudflare-hosted website infrastructure to the development team, reducing cross-team dependencies and enabling faster, more reliable delivery.",
-        "Worked with QA to expand Playwright end-to-end testing to cover approximately 90% of unauthenticated website functionality, increasing confidence in releases.",
-        "Helped shape technical priorities and architectural decisions across application architecture, testing, developer experience, infrastructure, and engineering workflows.",
-        "Applied AI-assisted engineering workflows across debugging, architectural analysis, code review, and content migration, accelerating diagnosis of complex issues and reducing effort on repetitive engineering tasks."
+        "Co-designed and delivered a unified developer platform for multiple SDK products, consolidating X documentation pages, Y demos, and Z API reference pages into a single codebase and removing duplicated tooling across products.",
+        "Designed public APIs and reusable abstractions that simplified integrating and extending the visualisation SDKs for customer developers.",
+        "Transferred ownership of the Cloudflare-hosted website infrastructure from the Platform team to the development team, removing a cross-team dependency from every release.",
+        "Expanded Playwright end-to-end coverage with QA to approximately 90% of website functionality, making releases routine rather than risky.",
+        "Drove architectural decisions on application structure, testing strategy, developer experience, infrastructure, and engineering workflows.",
+        "Used AI-assisted workflows to migrate X documentation pages, Y demos, and Z API reference pages to the new platform, completing the migration in a fraction of the time a manual rewrite would have taken."
       ]
     },
     {
       "name": "Mulberry House Software",
-      "position": "Founder & Principal Engineer",
-      "url": "https://www.mulberryhousesoftware.com",
+      "position": "Independent Consultant & Principal Engineer",
+      "website": "https://www.mulberryhousesoftware.com",
       "startDate": "2016-05",
       "endDate": "2025-06",
-      "summary": "Founded and led a consultancy building data-driven applications and developer tooling, remaining hands-on across architecture, implementation, infrastructure, and product direction.",
+      "summary": "Ran an independent consultancy building data-driven applications and open-source developer tooling, owning architecture, implementation, infrastructure, and product direction for every engagement.",
       "highlights": [
-        "Created and maintained reusable open-source React UI and data visualisation libraries, including [Allotment](https://allotment.mulberryhousesoftware.com/) and [Pennant](https://pennant.vega.xyz/), with 200,000+ weekly downloads and production use by the [Vega](https://vega.xyz/) trading network.",
-        "Designed and delivered full-stack applications and developer-facing tools across multiple industries, owning projects end-to-end from initial requirements through production.",
-        "Built and deployed production systems spanning browser applications, Node.js APIs, cloud infrastructure, build tooling, and deployment pipelines.",
-        "Delivered interactive applications and data visualisation tools for clients including home-renovation startup [Reno](https://www.renovatewithreno.co.uk/) and pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/).",
-        "Led technical delivery while growing a consultancy, combining hands-on engineering with architecture, client collaboration, prioritisation, and product decisions."
+        "Created and maintain open-source React UI and data visualisation libraries, including [Allotment](https://allotment.mulberryhousesoftware.com/) and [Pennant](https://pennant.vega.xyz/), with 200,000+ weekly downloads and production use by the [Vega](https://vega.xyz/) trading network.",
+        "Owned full-stack applications and developer tools across multiple industries end-to-end, from initial requirements through production and ongoing support.",
+        "Shipped production systems spanning browser applications, Node.js APIs, cloud infrastructure, build tooling, and deployment pipelines.",
+        "Built interactive applications and data visualisation tools for clients including home-renovation startup [Reno](https://www.renovatewithreno.co.uk/) and pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/).",
+        "Balanced hands-on engineering with client collaboration, scoping, prioritisation, and product decisions across concurrent engagements."
       ]
     },
     {
       "name": "Redgate",
-      "position": "Trainee Product Manager",
-      "url": "https://www.red-gate.com/",
-      "endDate": "2016-05",
-      "startDate": "2015-07",
-      "highlights": [
-        "Improved adoption and usability of a database deployment tool used in CI/CD pipelines through product and UX improvements.",
-        "Introduced in-product analytics to support data-driven product decisions and prioritisation.",
-        "Worked closely with users, UX, and engineering to identify problems, gather feedback, and define and prioritise features."
-      ]
-    },
-    {
-      "name": "Redgate",
-      "position": "Software Developer",
-      "url": "https://www.red-gate.com/",
-      "endDate": "2015-07",
+      "position": "Software Developer, then Product Manager",
+      "website": "https://www.red-gate.com/",
       "startDate": "2014-06",
-      "summary": "Developed developer-facing tooling to streamline SQL Server database deployment within release pipelines.",
+      "endDate": "2016-05",
+      "summary": "Joined as a developer on tooling that streamlines SQL Server database deployment in release pipelines, then moved into product management for the same tool to work directly with users on adoption and usability.",
       "highlights": [
-        "Built tools and features that improved the reliability and usability of database deployment workflows in production environments."
+        "Built features that improved the reliability and usability of database deployment workflows in production CI/CD pipelines.",
+        "Increased adoption and usability of the deployment tool through product and UX improvements informed by direct user research.",
+        "Introduced in-product analytics to support data-driven prioritisation, and worked with UX and engineering to define and rank features."
       ]
     },
     {
       "name": "Sungard",
       "position": "Software Developer",
-      "url": "https://www.fisglobal.com/",
-      "endDate": "2014-05",
+      "website": "https://www.fisglobal.com/",
       "startDate": "2012-03",
+      "endDate": "2014-05",
       "highlights": [
         "Contributed to a scalable framework powering high-performance financial risk analytics.",
-        "Developed a tracing JIT compiler enabling C# financial models to execute efficiently on GPUs."
+        "Developed a tracing JIT compiler that translated C# financial models into GPU kernels, so existing C# models could run on GPU hardware without being rewritten."
       ]
     },
     {
       "name": "Earlier Career",
-      "endDate": "2012",
       "startDate": "2004",
-      "summary": "Held engineering and research roles spanning financial services, high-performance computing, scientific computing, and developer tooling.",
+      "endDate": "2012",
+      "summary": "Engineering and research roles spanning financial services, high-performance computing, scientific computing, and developer tooling.",
       "highlights": [
-        "High Performance Computing Developer at Fidelity, working on computationally intensive systems in financial services.",
-        "Application Engineer at MathWorks, acting as UK technical contact for parallel computing tools and helping developers solve complex computational problems.",
+        "High Performance Computing Developer at Fidelity, building computationally intensive systems for financial services.",
+        "Application Engineer at MathWorks, serving as UK technical contact for parallel computing tools and helping developers solve demanding computational problems.",
         "Research Scientist at QinetiQ, working on multi-sensor fusion, object tracking, and defence systems."
       ]
     }
   ],
   "education": [
     {
-      "endDate": "2003",
       "startDate": "2002",
+      "endDate": "2003",
       "area": "Mathematical Modelling and Scientific Computing",
       "studyType": "MSc",
       "institution": "University of Oxford"
     },
     {
-      "endDate": "2002",
       "startDate": "1999",
+      "endDate": "2002",
       "area": "Mathematics",
       "studyType": "BA",
       "institution": "University of Cambridge"
@@ -156,9 +146,7 @@
         "data visualisation",
         "DOM APIs",
         "HTML Canvas",
-        "Web Workers",
-        "C#",
-        "MATLAB"
+        "Web Workers"
       ]
     },
     {
@@ -167,8 +155,7 @@
         "Technical direction",
         "mentoring",
         "product engineering",
-        "cross-functional collaboration",
-        "developer experience"
+        "cross-functional collaboration"
       ]
     }
   ]
