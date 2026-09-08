@@ -33,11 +33,14 @@
       "startDate": "2025-06",
       "summary": "Senior engineer across developer experience, web applications, tooling, and high-performance graph visualisation SDKs, with a focus on architecture, developer productivity, and technical direction.",
       "highlights": [
-        "Co-designed and built a unified developer platform for multiple SDK products. It consolidates X documentation pages, Y demos, and Z API reference pages into a single codebase and replaced the per-product tooling.",
+        "Led the design and build of a single website for four SDK products, plus the internal tooling used to produce its content. It consolidates X documentation pages, Y demos, and Z API reference pages into one codebase and replaced the per-product tooling.",
+        "Set the site's architecture, agreed with the SDK and Platform teams: one monorepo and one pipeline in place of separate sites per product, trading a larger up-front migration for changes that ship to every SDK at once.",
         "Designed public APIs and reusable abstractions that make the SDKs easier to integrate and extend.",
-        "Took over the Cloudflare-hosted website infrastructure and its authentication from the Platform team, so the development team could make, test, and ship infrastructure changes without waiting on another team.",
+        "Took over the Cloudflare-hosted website infrastructure and its authentication from the Platform team, so the development team could make, test, and ship infrastructure changes self-service.",
+        "Leading the move of website authentication to a Clerk-based solution, including server-side JWT validation for authenticated routes.",
         "Worked with QA to expand Playwright end-to-end coverage to roughly 90% of website functionality.",
-        "Used AI-assisted workflows to migrate all existing content to the new platform."
+        "Run monitoring and alerting for the website and content tooling in Datadog, and handle production incidents.",
+        "Used AI-assisted workflows to migrate all existing content to the new site."
       ]
     },
     {
@@ -137,7 +140,18 @@
         "GitLab CI",
         "Playwright",
         "CI/CD",
-        "automated testing"
+        "automated testing",
+        "Datadog",
+        "observability",
+        "incident response"
+      ]
+    },
+    {
+      "name": "Security & Identity",
+      "keywords": [
+        "Clerk",
+        "JWT validation",
+        "authentication flows"
       ]
     },
     {
