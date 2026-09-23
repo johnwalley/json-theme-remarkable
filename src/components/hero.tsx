@@ -17,7 +17,7 @@ const countryDisplayNames: Record<string, string> = {
 };
 
 export function Hero({ basics }: { basics: ResumeType["basics"] }) {
-  const { name, profiles, location, email, phone, url } = basics;
+  const { name, label, profiles, location, email, phone, url } = basics;
 
   const linkedin = profiles.find(({ network }) => network === "linkedin");
   const github = profiles.find(({ network }) => network === "github");
@@ -26,6 +26,7 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
   return (
     <div className={styles.hero}>
       <div className={styles.title}>{name}</div>
+      {label && <div className={styles.label}>{label}</div>}
       <div className={styles.basicInfo}>
         {location && (
           <Info>
