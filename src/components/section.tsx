@@ -9,8 +9,10 @@ export function Section({
 }) {
   return (
     <div className={styles.section}>
-      <h2 className={styles.title}>{title}</h2>
-      <hr />
+      <div className={styles.header}>
+        <h2 className={styles.title}>{title}</h2>
+        <hr />
+      </div>
       {children}
     </div>
   );

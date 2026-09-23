@@ -2,7 +2,7 @@
   break-inside: avoid;
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
 }
 
 .name {

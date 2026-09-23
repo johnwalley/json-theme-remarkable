@@ -6,7 +6,7 @@
     "name": "John Walley",
     "label": "Senior Software Engineer | React, TypeScript & Data Visualisation",
     "email": "john@walley.org.uk",
-    "summary": "Senior software engineer with 20+ years of experience building data-intensive web applications, interactive visualisations, developer tools, and high-performance scientific and financial software. Strong React, TypeScript and JavaScript expertise, with experience designing frontend architectures, reusable component APIs, real-time data flows and performance-sensitive browser interactions. Comfortable working directly with technical users and stakeholders to understand complex workflows and turn them into effective software. Experienced in setting engineering direction, mentoring developers, and taking solutions from initial design through production delivery. Strong mathematical and scientific-computing background, with degrees from Cambridge and Oxford.",
+    "summary": "Senior software engineer with 20+ years of experience building analytical, data-intensive web applications for engineering, scientific and financial users, including real-time visualisations over large datasets. Strong React, TypeScript and JavaScript expertise, with experience designing frontend architectures, reusable component APIs, real-time data flows and performance-sensitive browser interactions. Comfortable working directly with technical users, often as the sole engineer, to understand complex workflows and turn them into effective software. Experienced in setting engineering direction, mentoring developers, and taking solutions from initial design through production delivery. Strong mathematical and scientific-computing background, with degrees from Cambridge and Oxford and earlier roles in high-performance and scientific computing.",
     "url": "www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -34,13 +34,10 @@
       "summary": "Working across browser-based graph, timeline and geospatial visualisation SDKs, React applications, developer experience and customer-facing technical platforms.",
       "highlights": [
         "Designed frontend architectures and developer-facing APIs for interactive visualisations operating over large, complex datasets.",
-        "Built and enhanced React-based SDK features, demos and showcases, alongside extensive React development within the company's new customer-facing website.",
         "Built and optimised browser interactions involving large stateful data models and performance-sensitive rendering across Canvas and WebGL pipelines; the SDKs support visualisations of 40,000+ items at interactive frame rates.",
         "Contributed to technical and product decisions across rendering, animation, state management, API design, usability and developer experience.",
-        "Led the design and build of a unified documentation, examples and showcase website for four SDK products, consolidating separate product sites and tooling into a single codebase and delivery pipeline.",
-        "Chair the Website Team's Technical Strategy Group, setting priorities across AI-assisted engineering, testing architecture, accessibility and component standardisation; personally drove the team's AI-assisted engineering priority and supported development of its automated testing approach.",
-        "Owned the interim operating model for moving customer-facing product content into the single website, working across product management, QA, technical authors and developers to define ownership, review and release workflows while keeping product and website development loosely coupled.",
-        "Defined supporting architectural requirements for parallel product and documentation development, including the use of pre-release packages so website content can be developed against in-progress product work without tightly coupling repositories.",
+        "Lead the design and build of a unified documentation, examples and showcase website for four SDK products, including its React example gallery, consolidating separate sites and tooling into a single codebase and delivery pipeline; defined the ownership, review and release workflows that let product and website development proceed in parallel.",
+        "Chair the Website Team's Technical Strategy Group, setting priorities across AI-assisted engineering, testing architecture, accessibility and component standardisation; personally drive the team's AI-assisted engineering priority and support development of its automated testing approach.",
         "Mentor a graduate developer through regular 1:1s, pairing, career guidance and development-goal setting."
       ]
     },
@@ -50,13 +47,13 @@
       "website": "https://www.mulberryhousesoftware.com",
       "startDate": "2016-05",
       "endDate": "2025-06",
-      "summary": "Independent consultancy building React applications, interactive visualisation systems, data-driven analytical software and open-source developer tools. Sole engineer on client engagements, responsible for understanding user needs, architecture, implementation and production delivery.",
+      "summary": "Independent consultancy building React applications, interactive visualisation systems, data-driven analytical software and open-source developer tools. Sole engineer on client engagements, responsible for understanding user needs, architecture, backend and API integration, implementation and production delivery.",
       "highlights": [
         "Created and maintained [Allotment](https://allotment.mulberryhousesoftware.com/), an open-source React split-pane layout component with over 10 million npm downloads.",
-        "Created [Pennant](https://github.com/vegaprotocol/pennant), an open-source Canvas-based financial charting library that was used in production by the Vega decentralised trading network, supporting candlesticks, depth charts, panning, zooming and crosshair interactions.",
-        "Designed Pennant's client-side real-time data flow using WebSockets, integrating streaming market data with responsive, high-performance visualisations.",
-        "Designed reusable APIs and abstractions for complex interactive interfaces, balancing flexibility, performance and developer usability.",
         "Designed and delivered data visualisation software for pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/), enabling pension scheme managers to explore data and inform investment decisions.",
+        "Created [Pennant](https://github.com/vegaprotocol/pennant), an open-source Canvas-based financial charting library that was used in production by the Vega decentralised trading network, supporting candlesticks, depth charts, panning, zooming and crosshair interactions.",
+        "Designed Pennant's client-side real-time data flow using WebSockets, integrating streaming market data from backend APIs with responsive, high-performance visualisations.",
+        "Designed reusable APIs and abstractions for complex interactive interfaces, balancing flexibility, performance and developer usability.",
         "Developed an interactive floor-planning application for home-renovation startup [Reno](https://www.renovatewithreno.co.uk/).",
         "Owned projects from requirements and initial product design through architecture, implementation, deployment and support, working directly with clients to understand workflows and make technical and product decisions."
       ]
@@ -103,7 +100,11 @@
       "endDate": "2003",
       "area": "Mathematical Modelling and Scientific Computing",
       "studyType": "MSc",
-      "institution": "University of Oxford"
+      "institution": "University of Oxford",
+      "highlights": [
+        "Studied mathematical modelling, numerical linear algebra, numerical optimisation and distributed computing for computational finance.",
+        "Dissertation on the numerical solution of magnetic fluid flow."
+      ]
     },
     {
       "startDate": "1999",
@@ -122,6 +123,7 @@
       "name": "Frontend & visualisation",
       "keywords": [
         "React",
+        "responsive design",
         "HTML Canvas",
         "SVG",
         "WebGL",
@@ -136,7 +138,7 @@
     {
       "name": "Algorithms & numerics",
       "keywords": [
-        "numerical methods",
+        "Numerical methods",
         "graph & layout algorithms",
         "time-series processing"
       ]
@@ -144,20 +146,29 @@
     {
       "name": "Architecture & library design",
       "keywords": [
-        "public API design",
+        "Public API design",
         "reusable abstractions",
         "library architecture",
-        "state management"
+        "state management",
+        "backend & API integration"
       ]
     },
     {
       "name": "Platform & tooling",
-      "keywords": ["Node.js", "Vite", "monorepos", "automated testing"]
+      "keywords": [
+        "Node.js",
+        "Vite",
+        "monorepos",
+        "automated testing",
+        "REST APIs",
+        "SQL Server",
+        "Git"
+      ]
     },
     {
       "name": "Technical leadership",
       "keywords": [
-        "technical strategy",
+        "Technical strategy",
         "mentoring",
         "architecture reviews",
         "engineering standards",

@@ -1,10 +1,10 @@
 @page {
   size: A4;
-  margin: 20mm;
+  margin: 18mm;
 }
 
 .layout {
-  max-width: 170mm; /* 210mm - (20mm * 2) */
+  max-width: 174mm; /* 210mm - (18mm * 2) */
   margin: 0 auto;
   padding-bottom: 10mm;
 }
@@ -34,5 +34,14 @@ p {
   /* Avoid ugly page breaks */
   h1, h2, h3 {
     break-after: avoid;
+  }
+
+  .summary {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .layout {
+    padding-bottom: 0;
   }
 }

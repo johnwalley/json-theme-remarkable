@@ -1,4 +1,16 @@
-.experience {
+/* Keep the role header, subtitle and summary with the first bullet */
+.meta,
+.subTitle,
+.summary {
+  break-inside: avoid;
+  break-after: avoid;
+}
+
+.highlights {
+  break-before: avoid;
+}
+
+.highlights li {
   break-inside: avoid;
 }
 
@@ -27,9 +39,14 @@
 }
 
 .summary {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .highlights {
   padding-left: 1rem;
+  margin: 0.25rem 0 0;
+}
+
+.experience + .experience {
+  margin-top: 0.75rem;
 }
