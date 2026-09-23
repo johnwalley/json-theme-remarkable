@@ -12,6 +12,10 @@ import { Info } from "./info";
 import { ResumeType } from "../App";
 import styles from "./hero.module.css";
 
+const countryDisplayNames: Record<string, string> = {
+  GB: "UK",
+};
+
 export function Hero({ basics }: { basics: ResumeType["basics"] }) {
   const { name, profiles, location, email, phone, url } = basics;
 
@@ -26,7 +30,8 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
         {location && (
           <Info>
             <FaMapPin />
-            {location.city}, {location.countryCode}
+            {location.city},{" "}
+            {countryDisplayNames[location.countryCode] ?? location.countryCode}
           </Info>
         )}
         {email && (
@@ -50,25 +55,19 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
         {linkedin && (
           <Info>
             <FaLinkedin />
-            <a href={`https://github.com/${linkedin.username}`}>
-              {linkedin.username}
-            </a>
+            <a href={linkedin.url}>{linkedin.username}</a>
           </Info>
         )}
         {github && (
           <Info>
             <FaGithub />
-            <a href={`https://github.com/${github.username}`}>
-              {github.username}
-            </a>
+            <a href={github.url}>{github.username}</a>
           </Info>
         )}
         {twitter && (
           <Info>
             <FaTwitter />
-            <a href={`https://github.com/${twitter.username}`}>
-              {twitter.username}
-            </a>
+            <a href={twitter.url}>{twitter.username}</a>
           </Info>
         )}
       </div>

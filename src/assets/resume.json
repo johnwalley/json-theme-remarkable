@@ -6,7 +6,7 @@
     "name": "John Walley",
     "label": "Senior Software Engineer | Data Visualisation & Developer Tools",
     "email": "john@walley.org.uk",
-    "summary": "Senior software engineer with 20+ years of experience spanning data visualisation, reusable libraries, developer tools, and high-performance financial and scientific computing. Strong TypeScript and JavaScript expertise, with experience designing developer-facing APIs, building complex browser interactions, and optimising performance-sensitive software. Author of open-source UI and visualisation libraries used in production by the Vega trading network. Mathematical background includes a Cambridge mathematics degree and an Oxford MSc in Mathematical Modelling and Scientific Computing. Hands-on across architecture, implementation, and production delivery.",
+    "summary": "Senior software engineer with 20+ years of experience spanning data visualisation, reusable libraries, developer tools, and high-performance financial and scientific computing. Strong TypeScript and JavaScript expertise, with experience designing developer-facing APIs, building complex browser interactions, and optimising performance-sensitive software. Author of open-source UI and visualisation libraries used in production by the Vega trading network. Strong mathematical grounding, with degrees from Cambridge and Oxford. Hands-on across architecture, implementation, and production delivery.",
     "url": "www.walley.org.uk",
     "location": {
       "city": "Cambridge",
@@ -33,8 +33,9 @@
       "startDate": "2025-06",
       "summary": "Working across browser-based graph, timeline, and geospatial visualisation SDKs, developer experience, and tooling.",
       "highlights": [
-        "Designed frontend architectures and developer-facing APIs for interactive visualisations operating over large, complex datasets, including work on graph layout algorithms, hit-testing, and timeline aggregation.",
-        "Built and optimised browser interactions involving large stateful data models and performance-sensitive rendering across Canvas and WebGL pipelines, on SDKs rendering charts of 40,000+ items at interactive frame rates.",
+        "Designed frontend architectures and developer-facing APIs for interactive visualisations operating over large, complex datasets.",
+        "Worked on graph layout algorithms, hit-testing, and timeline aggregation.",
+        "Built and optimised browser interactions involving large stateful data models and performance-sensitive rendering across Canvas and WebGL pipelines. The SDKs support charts of 40,000+ items at interactive frame rates.",
         "Contributed to technical and product decisions across rendering, animation, state management, API design, and developer experience.",
         "Led the design and build of a unified documentation and examples website for four SDK products, consolidating per-product sites and tooling into one codebase and delivery pipeline."
       ]
@@ -47,8 +48,8 @@
       "endDate": "2025-06",
       "summary": "Independent consultancy building interactive visualisation systems, data-driven applications, and open-source developer tools. Sole engineer on client engagements, responsible for architecture, implementation, and production delivery.",
       "highlights": [
-        "Created [Pennant](https://pennant.vega.xyz/), an open-source Canvas-based financial charting library (candlesticks, depth charts, real-time streaming data, pan/zoom and crosshair interactions), used in production by the [Vega](https://vega.xyz/) trading network.",
         "Created and maintained [Allotment](https://allotment.mulberryhousesoftware.com/), an open-source React split-pane layout component with 200,000+ weekly downloads.",
+        "Created [Pennant](https://pennant.vega.xyz/), an open-source Canvas-based financial charting library (candlesticks, depth charts, real-time streaming data, panning, zooming, and crosshair interactions), used in production by the [Vega](https://vega.xyz/) trading network.",
         "Designed reusable APIs and abstractions for complex interactive interfaces, balancing flexibility, performance, and developer usability.",
         "Developed an interactive floor-planning application for home-renovation startup [Reno](https://www.renovatewithreno.co.uk/).",
         "Designed and delivered data visualisation tools for pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/).",
@@ -109,10 +110,11 @@
   ],
   "skills": [
     {
-      "keywords": ["TypeScript", "JavaScript", "CSS", "C#", "MATLAB"],
-      "name": "Languages"
+      "name": "Languages",
+      "keywords": ["TypeScript", "JavaScript", "CSS", "C#", "MATLAB"]
     },
     {
+      "name": "Frontend & visualisation",
       "keywords": [
         "React",
         "HTML Canvas",
@@ -122,43 +124,38 @@
         "D3",
         "high-performance rendering",
         "large-scale data visualisation"
-      ],
-      "name": "Frontend & visualisation"
+      ]
     },
     {
+      "name": "Algorithms & numerics",
       "keywords": [
         "numerical methods",
         "graph & layout algorithms",
         "time-series processing"
-      ],
-      "name": "Algorithms & numerics"
+      ]
     },
     {
+      "name": "Architecture & library design",
       "keywords": [
-        "Node.js",
-        "Next.js",
-        "Astro",
-        "Vite",
-        "Webpack",
-        "pnpm",
-        "git",
-        "monorepos"
-      ],
-      "name": "Platform & tooling"
+        "public API design",
+        "reusable abstractions",
+        "library architecture",
+        "state management"
+      ]
     },
     {
+      "name": "Platform & tooling",
+      "keywords": ["Node.js", "Vite", "monorepos"]
+    },
+    {
+      "name": "Technical leadership",
       "keywords": [
-        "Technical leadership",
-        "decision-making",
         "mentoring",
-        "cross-functional work",
-        "product focus",
         "architecture reviews",
         "engineering standards",
         "technical communication",
-        "public speaking"
-      ],
-      "name": "Soft skills"
+        "cross-functional collaboration"
+      ]
     }
   ]
 }
