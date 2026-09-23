@@ -52,8 +52,8 @@
       "endDate": "2025-06",
       "summary": "Independent consultancy building React applications, interactive visualisation systems, data-driven analytical software and open-source developer tools. Sole engineer on client engagements, responsible for understanding user needs, architecture, implementation and production delivery.",
       "highlights": [
-        "Created and maintained [Allotment](https://allotment.mulberryhousesoftware.com/), an open-source React split-pane layout component with 200,000+ weekly downloads.",
-        "Created [Pennant](https://pennant.vega.xyz/), an open-source Canvas-based financial charting library used in production by the [Vega](https://vega.xyz/) trading network, supporting candlesticks, depth charts, panning, zooming and crosshair interactions.",
+        "Created and maintained [Allotment](https://allotment.mulberryhousesoftware.com/), an open-source React split-pane layout component with over 10 million npm downloads.",
+        "Created [Pennant](https://github.com/vegaprotocol/pennant), an open-source Canvas-based financial charting library that was used in production by the Vega decentralised trading network, supporting candlesticks, depth charts, panning, zooming and crosshair interactions.",
         "Designed Pennant's client-side real-time data flow using WebSockets, integrating streaming market data with responsive, high-performance visualisations.",
         "Designed reusable APIs and abstractions for complex interactive interfaces, balancing flexibility, performance and developer usability.",
         "Designed and delivered data visualisation software for pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/), enabling pension scheme managers to explore data and inform investment decisions.",
