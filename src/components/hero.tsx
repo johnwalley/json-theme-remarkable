@@ -5,7 +5,6 @@ import {
   FaLinkedin,
   FaMapPin,
   FaPhoneAlt,
-  FaTwitter,
 } from "react-icons/fa";
 
 import { Info } from "./info";
@@ -21,7 +20,6 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
 
   const linkedin = profiles.find(({ network }) => network === "linkedin");
   const github = profiles.find(({ network }) => network === "github");
-  const twitter = profiles.find(({ network }) => network === "twitter");
 
   return (
     <div className={styles.hero}>
@@ -63,12 +61,6 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
           <Info>
             <FaGithub />
             <a href={github.url}>{github.username}</a>
-          </Info>
-        )}
-        {twitter && (
-          <Info>
-            <FaTwitter />
-            <a href={twitter.url}>{twitter.username}</a>
           </Info>
         )}
       </div>
