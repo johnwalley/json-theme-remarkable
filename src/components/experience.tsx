@@ -1,7 +1,7 @@
 import { DateComponent } from "./date";
 import ReactMarkdown from "react-markdown";
 import styles from "./experience.module.css";
-import { PartialDate } from "../App";
+import type { PartialDate } from "../schema";
 
 type ExperienceProps = {
   title: string;

@@ -23,10 +23,6 @@ p {
 }
 
 @media print {
-  :root {
-    color-scheme: light !important;
-  }
-
   a {
     text-decoration: none;
   }

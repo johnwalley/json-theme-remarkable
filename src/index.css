@@ -21,3 +21,14 @@
     background-color: #ffffff;
   }
 }
+
+/* Always print with the light palette, regardless of the OS colour scheme.
+   The defaults above are the dark palette, so don't rely on the browser
+   matching prefers-color-scheme: light when printing. */
+@media print {
+  :root {
+    color-scheme: light;
+    color: #213547;
+    background-color: #ffffff;
+  }
+}

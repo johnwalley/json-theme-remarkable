@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 
 import { Info } from "./info";
-import { ResumeType } from "../App";
+import type { ResumeType } from "../schema";
 import styles from "./hero.module.css";
 
 const countryDisplayNames: Record<string, string> = {

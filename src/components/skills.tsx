@@ -1,4 +1,4 @@
-import { ResumeType } from "../App";
+import type { ResumeType } from "../schema";
 import { Section } from "./section";
 import styles from "./skills.module.css";
 

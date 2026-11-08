@@ -1,6 +1,6 @@
 import { Experience } from "./experience";
 import { Hero } from "./hero";
-import { ResumeType } from "../App";
+import type { ResumeType } from "../schema";
 import { Section } from "./section";
 import { Skills } from "./skills";
 import styles from "./resume.module.css";

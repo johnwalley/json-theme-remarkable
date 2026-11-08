@@ -1,4 +1,4 @@
-import { PartialDate } from "../App";
+import type { PartialDate } from "../schema";
 
 const monthFormatter = new Intl.DateTimeFormat('en-US', {
   month: 'long',

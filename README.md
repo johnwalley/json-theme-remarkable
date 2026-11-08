@@ -5,7 +5,8 @@ A personal CV/resume site. Resume content lives in a [JSON Resume](https://jsonr
 ## How it works
 
 - `src/assets/resume.json` — the source of truth. Edit this to change CV content.
-- `src/App.tsx` — parses and validates `resume.json` against a Zod schema (a partial JSON Resume schema covering `basics`, `work`, `skills`, and `education`, plus a custom `PartialDate` that accepts `YYYY` or `YYYY-MM`).
+- `src/schema.ts` — Zod schema for the resume (a partial JSON Resume schema covering `basics`, `work`, `skills`, and `education`, plus a custom `PartialDate` that accepts `YYYY` or `YYYY-MM`).
+- `vite.config.ts` — a small plugin validates `resume.json` against the schema at build time and serves the result as `virtual:resume`. Invalid data fails `pnpm build` and shows the error overlay in `pnpm dev`; Zod is not shipped to the browser.
 - `src/components/resume.tsx` — top-level layout: hero, summary, experience, skills, education.
 - `src/components/resume.module.css` — A4 page sizing (`@page { size: A4; margin: 20mm }`) and print-specific tweaks (hides link underlines, avoids breaks after headings).
 

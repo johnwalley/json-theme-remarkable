@@ -3,8 +3,8 @@
   align-items: center;
   font-size: 1rem;
 
+  /* react-icons use fill="currentColor", so icons follow the text colour */
   svg {
-    fill: #fff;
     margin-right: 5px;
     width: 16px;
   }
@@ -12,13 +12,5 @@
   a {
     color: inherit;
     text-decoration: none;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .info {
-    svg {
-      fill: #000;
-    }
   }
 }
