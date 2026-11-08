@@ -8,12 +8,12 @@ export function Section({
   children: React.ReactNode;
 }) {
   return (
-    <div className={styles.section}>
+    <section className={styles.section}>
       <div className={styles.header}>
         <h2 className={styles.title}>{title}</h2>
         <hr />
       </div>
       {children}
-    </div>
+    </section>
   );
 }

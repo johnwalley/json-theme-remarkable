@@ -21,17 +21,17 @@ export function Experience({
   highlights,
 }: ExperienceProps) {
   return (
-    <div className={styles.experience}>
-      <div className={styles.meta}>
-        <div className={styles.title}>{title}</div>
+    <article className={styles.experience}>
+      <header className={styles.meta}>
+        <h3 className={styles.title}>{title}</h3>
         <div className={styles.dateRange}>
           <DateComponent date={startDate} />
           <span aria-hidden="true"> &ndash; </span>
           <DateComponent date={endDate} />
         </div>
-      </div>
-      {subTitle && <div className={styles.subTitle}>{subTitle}</div>}
-      {summary && <div className={styles.summary}>{summary}</div>}
+      </header>
+      {subTitle && <p className={styles.subTitle}>{subTitle}</p>}
+      {summary && <p className={styles.summary}>{summary}</p>}
       {highlights && (
         <ul className={styles.highlights}>
           {highlights.map((highlight, index) => (
@@ -41,6 +41,6 @@ export function Experience({
           ))}
         </ul>
       )}
-    </div>
+    </article>
   );
 }

@@ -5,12 +5,14 @@ import styles from "./skills.module.css";
 export function Skills({ skills }: { skills: ResumeType["skills"] }) {
   return (
     <Section title="Skills">
-      {skills.map((skill, index) => (
-        <div key={index} className={styles.skill}>
-          <div className={styles.name}>{skill.name}:</div>
-          <div>{skill.keywords.join(", ")}</div>
-        </div>
-      ))}
+      <dl className={styles.list}>
+        {skills.map((skill, index) => (
+          <div key={index} className={styles.skill}>
+            <dt className={styles.name}>{skill.name}:</dt>
+            <dd className={styles.keywords}>{skill.keywords.join(", ")}</dd>
+          </div>
+        ))}
+      </dl>
     </Section>
   );
 }

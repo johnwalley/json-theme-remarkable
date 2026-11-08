@@ -28,4 +28,4 @@ pnpm lint      # eslint
 
 ## Stack
 
-React 19, TypeScript, Vite, Zod for runtime schema validation, react-markdown for rich text in highlights/summaries, react-icons for profile links.
+React 19, TypeScript, Vite, Zod for build-time schema validation, react-markdown for rich text in highlights/summaries, react-icons for profile links, and EB Garamond self-hosted via Fontsource (no Google Fonts request, so PDFs never print in a fallback font).

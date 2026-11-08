@@ -22,10 +22,10 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
   const github = profiles.find(({ network }) => network === "github");
 
   return (
-    <div className={styles.hero}>
-      <div className={styles.title}>{name}</div>
-      {label && <div className={styles.label}>{label}</div>}
-      <div className={styles.basicInfo}>
+    <header className={styles.hero}>
+      <h1 className={styles.title}>{name}</h1>
+      {label && <p className={styles.label}>{label}</p>}
+      <ul className={styles.basicInfo}>
         {location && (
           <Info>
             <FaMapPin />
@@ -63,7 +63,7 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
             <a href={github.url}>{github.username}</a>
           </Info>
         )}
-      </div>
-    </div>
+      </ul>
+    </header>
   );
 }

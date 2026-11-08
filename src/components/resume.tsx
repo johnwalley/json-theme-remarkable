@@ -7,9 +7,9 @@ import styles from "./resume.module.css";
 
 export function Resume({ resume }: { resume: ResumeType }) {
   return (
-    <div className={styles.layout}>
+    <main className={styles.layout}>
       <Hero basics={resume.basics} />
-      <div className={styles.summary}>{resume.basics.summary}</div>
+      <p className={styles.summary}>{resume.basics.summary}</p>
       <Section title="Experience">
         {resume.work.map((job, index) => {
           return (
@@ -49,6 +49,6 @@ export function Resume({ resume }: { resume: ResumeType }) {
           );
         })}
       </Section>
-    </div>
+    </main>
   );
 }

@@ -1,3 +1,7 @@
+.list {
+  margin: 0;
+}
+
 .skill {
   break-inside: avoid;
   display: flex;
@@ -7,4 +11,8 @@
 
 .name {
   font-weight: 600;
+}
+
+.keywords {
+  margin: 0;
 }

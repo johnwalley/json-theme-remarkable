@@ -10,7 +10,7 @@ export function DateComponent({ date }: { date?: PartialDate }) {
   }
 
   if (date.kind === 'year') {
-    return <span>{date.year}</span>;
+    return <time dateTime={String(date.year)}>{date.year}</time>;
   }
 
   // year-month
@@ -18,9 +18,11 @@ export function DateComponent({ date }: { date?: PartialDate }) {
     new Date(date.year, date.month - 1, 1)
   );
 
+  const dateTime = `${date.year}-${String(date.month).padStart(2, "0")}`;
+
   return (
-    <span>
+    <time dateTime={dateTime}>
       {monthName} {date.year}
-    </span>
+    </time>
   );
 }
