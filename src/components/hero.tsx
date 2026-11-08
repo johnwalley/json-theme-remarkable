@@ -12,8 +12,12 @@ import { Info } from "./info";
 import { ResumeType } from "../App";
 import styles from "./hero.module.css";
 
+const countryDisplayNames: Record<string, string> = {
+  GB: "UK",
+};
+
 export function Hero({ basics }: { basics: ResumeType["basics"] }) {
-  const { name, profiles, location, email, phone, url } = basics;
+  const { name, label, profiles, location, email, phone, url } = basics;
 
   const linkedin = profiles.find(({ network }) => network === "linkedin");
   const github = profiles.find(({ network }) => network === "github");
@@ -22,11 +26,13 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
   return (
     <div className={styles.hero}>
       <div className={styles.title}>{name}</div>
+      {label && <div className={styles.label}>{label}</div>}
       <div className={styles.basicInfo}>
         {location && (
           <Info>
             <FaMapPin />
-            {location.city}, {location.countryCode}
+            {location.city},{" "}
+            {countryDisplayNames[location.countryCode] ?? location.countryCode}
           </Info>
         )}
         {email && (
@@ -50,25 +56,19 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
         {linkedin && (
           <Info>
             <FaLinkedin />
-            <a href={`https://github.com/${linkedin.username}`}>
-              {linkedin.username}
-            </a>
+            <a href={linkedin.url}>{linkedin.username}</a>
           </Info>
         )}
         {github && (
           <Info>
             <FaGithub />
-            <a href={`https://github.com/${github.username}`}>
-              {github.username}
-            </a>
+            <a href={github.url}>{github.username}</a>
           </Info>
         )}
         {twitter && (
           <Info>
             <FaTwitter />
-            <a href={`https://github.com/${twitter.username}`}>
-              {twitter.username}
-            </a>
+            <a href={twitter.url}>{twitter.username}</a>
           </Info>
         )}
       </div>
