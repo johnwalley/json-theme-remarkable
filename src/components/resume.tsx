@@ -1,4 +1,5 @@
 import { Experience } from "./experience";
+import ReactMarkdown from "react-markdown";
 import { Hero } from "./hero";
 import type { ResumeType } from "../schema";
 import { Section } from "./section";
@@ -9,7 +10,9 @@ export function Resume({ resume }: { resume: ResumeType }) {
   return (
     <main className={styles.layout}>
       <Hero basics={resume.basics} />
-      <p className={styles.summary}>{resume.basics.summary}</p>
+      <div className={styles.summary}>
+        <ReactMarkdown>{resume.basics.summary}</ReactMarkdown>
+      </div>
       <Section title="Experience">
         {resume.work.map((job, index) => {
           return (

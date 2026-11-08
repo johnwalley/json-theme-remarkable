@@ -13,25 +13,12 @@
   margin-bottom: 4mm;
 }
 
-a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-p {
-  margin: 0;
+/* Space paragraphs in multi-paragraph Markdown summaries */
+.summary p + p {
+  margin-top: 0.5rem;
 }
 
 @media print {
-  a {
-    text-decoration: none;
-  }
-
-  /* Avoid ugly page breaks */
-  h1, h2, h3 {
-    break-after: avoid;
-  }
-
   .summary {
     orphans: 3;
     widows: 3;

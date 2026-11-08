@@ -43,6 +43,10 @@
   margin-bottom: 0.5rem;
 }
 
+.summary p + p {
+  margin-top: 0.5rem;
+}
+
 .highlights {
   padding-left: 1rem;
   margin: 0.25rem 0 0;

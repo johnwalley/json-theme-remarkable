@@ -20,6 +20,15 @@
   }
 }
 
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+}
+
 /* Always print with the light palette, regardless of the OS colour scheme.
    The defaults above are the dark palette, so don't rely on the browser
    matching prefers-color-scheme: light when printing. */
@@ -28,5 +37,14 @@
     color-scheme: light;
     color: #213547;
     background-color: #ffffff;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* Avoid ugly page breaks */
+  h1, h2, h3 {
+    break-after: avoid;
   }
 }
