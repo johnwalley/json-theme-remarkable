@@ -8,7 +8,7 @@ A personal CV/resume site. Resume content lives in a [JSON Resume](https://jsonr
 - `src/schema.ts` — Zod schema for the resume (a partial JSON Resume schema covering `basics`, `work`, `skills`, and `education`, plus a custom `PartialDate` that accepts `YYYY` or `YYYY-MM`).
 - `vite.config.ts` — a small plugin validates `resume.json` against the schema at build time and serves the result as `virtual:resume`. Invalid data fails `pnpm build` and shows the error overlay in `pnpm dev`; Zod is not shipped to the browser.
 - `src/components/resume.tsx` — top-level layout: hero, summary, experience, skills, education.
-- `src/components/resume.module.css` — A4 page sizing (`@page { size: A4; margin: 20mm }`) and print-specific tweaks (hides link underlines, avoids breaks after headings).
+- `src/components/resume.module.css` — A4 page sizing (`@page { size: A4; margin: 18mm }`) and print-specific tweaks (hides link underlines, avoids breaks after headings).
 
 ## Scripts
 
@@ -17,14 +17,15 @@ pnpm install
 pnpm dev       # local dev server with HMR
 pnpm build     # type-check (tsc -b) and produce a production build in dist/
 pnpm preview   # serve the built output
+pnpm pdf       # build and print to dist/<Name>-CV.pdf (or: pnpm pdf path/to/out.pdf)
 pnpm lint      # eslint
 ```
 
 ## Producing a PDF
 
-1. `pnpm dev` (or `pnpm build && pnpm preview`).
-2. Open the site in the browser.
-3. Print → Save as PDF. Use A4, default margins, and enable "Background graphics" if needed.
+Run `pnpm pdf`. It builds the site, serves it with `vite preview`, and prints it with your installed Google Chrome (via `playwright-core`), using the A4 size and margins from the CSS. The output goes to `dist/<Name>-CV.pdf`, named from `basics.name`.
+
+To print by hand instead: `pnpm dev`, open the site, then Print → Save as PDF with A4 and default margins.
 
 ## Stack
 

@@ -1,11 +1,16 @@
+import type { IconType } from "react-icons";
 import {
   FaEnvelope,
   FaGithub,
+  FaGitlab,
   FaLink,
   FaLinkedin,
   FaMapPin,
+  FaMastodon,
   FaPhoneAlt,
+  FaStackOverflow,
 } from "react-icons/fa";
+import { FaBluesky, FaXTwitter } from "react-icons/fa6";
 
 import { Info } from "./info";
 import type { ResumeType } from "../schema";
@@ -15,11 +20,30 @@ const countryDisplayNames: Record<string, string> = {
   GB: "UK",
 };
 
+// Keyed by lower-cased JSON Resume `network`; unknown networks get FaLink.
+const networkIcons: Record<string, IconType> = {
+  bluesky: FaBluesky,
+  github: FaGithub,
+  gitlab: FaGitlab,
+  linkedin: FaLinkedin,
+  mastodon: FaMastodon,
+  stackoverflow: FaStackOverflow,
+  twitter: FaXTwitter,
+  x: FaXTwitter,
+};
+
+/** JSON Resume URLs should include a protocol, but tolerate bare domains. */
+function toHref(url: string) {
+  return /^[a-z][a-z\d+.-]*:/i.test(url) ? url : `https://${url}`;
+}
+
+/** Display a URL without its protocol or trailing slash. */
+function toDisplay(url: string) {
+  return url.replace(/^[a-z][a-z\d+.-]*:\/\//i, "").replace(/\/$/, "");
+}
+
 export function Hero({ basics }: { basics: ResumeType["basics"] }) {
   const { name, label, profiles, location, email, phone, url } = basics;
-
-  const linkedin = profiles.find(({ network }) => network === "linkedin");
-  const github = profiles.find(({ network }) => network === "github");
 
   return (
     <header className={styles.hero}>
@@ -48,21 +72,20 @@ export function Hero({ basics }: { basics: ResumeType["basics"] }) {
         {url && (
           <Info>
             <FaLink />
-            <a href={`https://${url}`}>{url}</a>
+            <a href={toHref(url)}>{toDisplay(url)}</a>
           </Info>
         )}
-        {linkedin && (
-          <Info>
-            <FaLinkedin />
-            <a href={linkedin.url}>{linkedin.username}</a>
-          </Info>
-        )}
-        {github && (
-          <Info>
-            <FaGithub />
-            <a href={github.url}>{github.username}</a>
-          </Info>
-        )}
+        {profiles.map(({ network, username, url }) => {
+          const Icon = networkIcons[network.toLowerCase()] ?? FaLink;
+          return (
+            <Info key={url}>
+              <Icon aria-hidden />
+              <a href={url} aria-label={`${network}: ${username}`}>
+                {username}
+              </a>
+            </Info>
+          );
+        })}
       </ul>
     </header>
   );
