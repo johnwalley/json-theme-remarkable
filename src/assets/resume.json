@@ -30,7 +30,7 @@
       "name": "Racing Bulls F1 Team",
       "position": "Senior Software Developer",
       "startDate": "2026-12",
-      "summary": "Senior front-end specialist in the Aerodynamics Software Group, building React and TypeScript applications that aerodynamicists use to analyse and compare aerodynamic data, and shaping the group's front-end architecture and standards."
+      "summary": "Senior front-end specialist in the Aerodynamics Software Group, building React and TypeScript tools for aerodynamicists and shaping the group's front-end architecture."
     },
     {
       "name": "Cambridge Intelligence",
@@ -42,7 +42,6 @@
       "highlights": [
         "Designed frontend architectures and developer-facing APIs for interactive visualisations of large, complex datasets.",
         "Built and optimised browser interactions involving large, stateful data models and performance-sensitive Canvas and WebGL rendering. The SDKs support visualisations of 40,000+ items at interactive frame rates.",
-        "Contributed to technical and product decisions across rendering, animation, state management, API design, usability and developer experience.",
         "Led the design and development of a unified documentation, examples and showcase website for four SDK products, including a React example gallery. Consolidated separate sites and tooling into a single codebase and delivery pipeline, and defined ownership, review and release workflows that allowed product and website development to proceed in parallel.",
         "Chaired the Website Team's Technical Strategy Group, setting priorities for AI-assisted engineering, testing architecture, accessibility and component standardisation. Led work on AI-assisted engineering and helped shape the team's automated testing approach.",
         "Mentored a graduate developer through regular one-to-one meetings, pair programming, career guidance and goal setting."
@@ -60,7 +59,6 @@
         "Designed and delivered data visualisation software for pensions technology company [Financial Canvas](https://www.financialcanvas.co.uk/), enabling pension scheme managers to explore data and inform investment decisions.",
         "Created [Pennant](https://github.com/vegaprotocol/pennant), an open-source Canvas-based financial charting library that was used in production by the Vega decentralised trading network, supporting candlesticks, depth charts, panning, zooming and crosshair interactions.",
         "Designed Pennant's client-side real-time data flow using WebSockets, integrating streaming market data from backend APIs with responsive, high-performance visualisations.",
-        "Designed reusable APIs and abstractions for complex interactive interfaces, balancing flexibility, performance and developer usability.",
         "Developed an interactive floor-planning application for home-renovation startup [Reno](https://www.renovatewithreno.co.uk/).",
         "Owned projects from requirements and initial product design through architecture, implementation, deployment and support, working directly with clients to understand workflows and make technical and product decisions."
       ]
