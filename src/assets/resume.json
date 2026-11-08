@@ -27,18 +27,25 @@
   },
   "work": [
     {
+      "name": "Racing Bulls F1 Team",
+      "position": "Senior Software Developer",
+      "startDate": "2026-12",
+      "summary": "Senior front-end specialist in the Aerodynamics Software Group, building React and TypeScript applications that aerodynamicists use to analyse and compare aerodynamic data, and shaping the group's front-end architecture and standards."
+    },
+    {
       "name": "Cambridge Intelligence",
       "position": "Software Developer",
       "website": "https://cambridge-intelligence.com/",
       "startDate": "2025-06",
-      "summary": "Working across browser-based graph, timeline and geospatial visualisation SDKs, React applications, developer experience and customer-facing technical platforms.",
+      "endDate": "2026-12",
+      "summary": "Worked across browser-based graph, timeline and geospatial visualisation SDKs, React applications, developer experience and customer-facing technical platforms.",
       "highlights": [
         "Designed frontend architectures and developer-facing APIs for interactive visualisations of large, complex datasets.",
         "Built and optimised browser interactions involving large, stateful data models and performance-sensitive Canvas and WebGL rendering. The SDKs support visualisations of 40,000+ items at interactive frame rates.",
         "Contributed to technical and product decisions across rendering, animation, state management, API design, usability and developer experience.",
-        "Lead the design and development of a unified documentation, examples and showcase website for four SDK products, including a React example gallery. Consolidate separate sites and tooling into a single codebase and delivery pipeline, and define ownership, review and release workflows that allow product and website development to proceed in parallel.",
-        "Chair the Website Team's Technical Strategy Group, setting priorities for AI-assisted engineering, testing architecture, accessibility and component standardisation. Lead work on AI-assisted engineering and help shape the team's automated testing approach.",
-        "Mentor a graduate developer through regular one-to-one meetings, pair programming, career guidance and goal setting."
+        "Led the design and development of a unified documentation, examples and showcase website for four SDK products, including a React example gallery. Consolidated separate sites and tooling into a single codebase and delivery pipeline, and defined ownership, review and release workflows that allowed product and website development to proceed in parallel.",
+        "Chaired the Website Team's Technical Strategy Group, setting priorities for AI-assisted engineering, testing architecture, accessibility and component standardisation. Led work on AI-assisted engineering and helped shape the team's automated testing approach.",
+        "Mentored a graduate developer through regular one-to-one meetings, pair programming, career guidance and goal setting."
       ]
     },
     {
