@@ -24,11 +24,17 @@ export function Experience({
     <article className={styles.experience}>
       <header className={styles.meta}>
         <h3 className={styles.title}>{title}</h3>
-        <div className={styles.dateRange}>
-          <DateComponent date={startDate} />
-          <span aria-hidden="true"> &ndash; </span>
-          <DateComponent date={endDate} />
-        </div>
+        {(startDate || endDate) && (
+          <div className={styles.dateRange}>
+            {startDate && (
+              <>
+                <DateComponent date={startDate} />
+                <span aria-hidden="true"> &ndash; </span>
+              </>
+            )}
+            <DateComponent date={endDate} />
+          </div>
+        )}
       </header>
       {subTitle && <p className={styles.subTitle}>{subTitle}</p>}
       {summary && (
