@@ -2,7 +2,7 @@ import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { ResumeSchema } from "./src/schema";
+import { parseResume } from "./src/schema";
 
 const RESUME_PATH = fileURLToPath(
   new URL("./src/assets/resume.json", import.meta.url)
@@ -33,15 +33,11 @@ function resume(): Plugin {
         this.error(`resume.json is not valid JSON: ${(e as Error).message}`);
       }
 
-      const result = ResumeSchema.safeParse(json);
-      if (!result.success) {
-        const issues = result.error.issues
-          .map((i) => `  - ${i.path.join(".")}: ${i.message}`)
-          .join("\n");
-        this.error(`resume.json failed validation:\n${issues}`);
+      try {
+        return `export default ${JSON.stringify(parseResume(json))};`;
+      } catch (e) {
+        this.error(`resume.json failed validation. ${(e as Error).message}`);
       }
-
-      return `export default ${JSON.stringify(result.data)};`;
     },
     hotUpdate({ file, server }) {
       if (file !== RESUME_PATH) return;
